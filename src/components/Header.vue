@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="my-info">
-            <img src="@/assets/logo.svg" >
+            <img src="@/assets/logo.svg"/>
             <div>
                 <h2>Rafael Carrenho Taranto</h2>
                 <h3>Desenvolvedor de Sistemas</h3>
@@ -9,6 +9,7 @@
         </div>
         <nav>
             <router-link to="/" active-class="active">Home</router-link>
+            <router-link to="/tech" active-class="active">Tecnologias</router-link>
             <router-link to="/contato" active-class="active">Contato</router-link>
         </nav>
     </header>
@@ -25,25 +26,26 @@ export default defineComponent({
 <style scoped>
     nav a{
         text-decoration: none;
-        color:#333;
+        color:#FEFEFE;
         font-size: 1.5rem;
         margin: 0 15px;
         padding: 8px 10px;
-        width: 90px;
+        width: 155px;
         text-align: center;
     }
     nav a:hover, .active{
-        background-color:#444;
-        color: #FEFEFE;
+        background-color:#353535;
     }
     nav, header{
         display: flex;
-        height: 75px;
+        height: 100px;
     }
     header{
         justify-content: space-between;
         align-items: flex-end;
-        margin: 0 70px;
+        width: 100%;
+        background: #9993;
+        margin: 0;
     }
     nav{
         justify-content: flex-end;
@@ -51,9 +53,12 @@ export default defineComponent({
     }
     .my-info{
         display: flex;
+        margin: 15px;
+        color: #EEE;
     }
-    img{
+    img {
         width: 75px;
+
     }
     h2, h3{
         margin: 3px 4px;
