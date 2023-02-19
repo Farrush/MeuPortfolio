@@ -26,6 +26,15 @@ export default defineComponent({
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 5px 20px;
+        padding: 5px 15px;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+    .card:hover{
+        scale: calc(1.05);
+    }
+    span{
+        margin-top: 8px;
+        font-weight: 900;
     }
 </style>
