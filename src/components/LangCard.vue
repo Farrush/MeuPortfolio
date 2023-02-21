@@ -37,4 +37,7 @@ export default defineComponent({
         margin-top: 8px;
         font-weight: 900;
     }
+    @media only screen and (max-width: 600px) {
+
+}
 </style>

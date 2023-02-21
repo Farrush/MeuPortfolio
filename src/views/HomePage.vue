@@ -48,4 +48,7 @@ export default defineComponent({
         margin-left: 5vw;
         margin-right: 10vw;
     }
+    @media only screen and (max-width: 600px) {
+
+}
 </style>

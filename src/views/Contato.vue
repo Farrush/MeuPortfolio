@@ -42,4 +42,7 @@ export default defineComponent({
         text-decoration: none;
         color: #000;
     }
+    @media only screen and (max-width: 600px) {
+
+}
 </style>

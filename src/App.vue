@@ -28,4 +28,11 @@ export default defineComponent({
         background-repeat: no-repeat;
         background-size: 100vw;
     }
+    @media only screen and (max-width: 600px) {
+        body{
+        background-image: url("@/assets/bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
 </style>

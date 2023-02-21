@@ -72,7 +72,7 @@ export const informacoes = [
     {
         id: "Node",
         tempo: "menos de 1 ano",
-        desc: "Aprendi quando ainda era iniciante em programação e para fazar a verdade nunca mais usei."
+        desc: "Aprendi quando ainda era iniciante em programação e para falar a verdade nunca mais usei."
     },
     {
         id: "Jest",
