@@ -81,6 +81,13 @@ export default defineComponent({
         font-size: 1.2rem;
     }
     @media only screen and (max-width: 600px) {
+    .tempo{
+        font-size: 1.4rem;
 
+    }
+    .desc{
+        width: 70vw;
+        font-size: 1.35rem;
+    }
 }
 </style>

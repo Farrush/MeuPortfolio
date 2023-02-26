@@ -14,9 +14,9 @@
             <router-link to="/contato" active-class="active">Contato</router-link>
         </nav>
         <ul class="mobile-nav" :class="{'inactive': !menuAtivado,'activated': menuAtivado}">
-            <li><router-link to="/">Home</router-link></li>
-            <li><router-link to="/tech">Tecnologias</router-link></li>
-            <li><router-link to="/contato">Contato</router-link></li>
+            <li><router-link to="/" @click="menuMobileAtivado">Home</router-link></li>
+            <li><router-link to="/tech" @click="menuMobileAtivado">Tecnologias</router-link></li>
+            <li><router-link to="/contato" @click="menuMobileAtivado">Contato</router-link></li>
         </ul>
     </header>
 </template>
@@ -101,7 +101,7 @@ export default defineComponent({
         display: flex;
         margin: 5px;
         color: #EEE;
-        font-size: 0.7rem;
+        font-size: 0.75rem;
     }
     .inactive{
         display: none;
@@ -110,29 +110,28 @@ export default defineComponent({
         display: flex;
     }
     .mobile-nav{
-
         flex-direction: column;
         position:absolute;
-        left: 0;
-        width:50vw;
+        right: 0;
+        width:60vw;
         top: 0;
-        background: #2827259b;
+        background: #abadb0ef;
         height: 100vh;
+        padding: 20px 0;
     }
     img {
         width: 60px;
     }
     li{
-
         color:#FEFEFE;
-
-        margin: 5px 3px;
-        width: 49vw;
+        margin-bottom: 20px;
+        width: 60vw;
         text-align: center;
-        background: #403d3ab7;
+        background: #424547b7;
     }
     li a{
-        font-size: 1.2rem;
+        font-size: 1.25rem;
+        font-weight: 600;
     }
     }
 </style>

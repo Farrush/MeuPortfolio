@@ -26,13 +26,13 @@ export default defineComponent({
     body{
         background-image: url("@/assets/bg.jpg");
         background-repeat: no-repeat;
-        background-size: 100vw;
+        background-size: 150%;
     }
     @media only screen and (max-width: 600px) {
         body{
         background-image: url("@/assets/bg.jpg");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: auto;
     }
 }
 </style>

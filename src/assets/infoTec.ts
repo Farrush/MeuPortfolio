@@ -21,9 +21,9 @@ export const informacoes = [
     {
         id: "TypeScript",
         tempo: "menos de 1 ano",
-        desc: "Estou aprendendo typescript enquanto estudo também os frameworks web, em especial o VueJs,"+
+        desc: "Estou aprendendo typescript enquanto estudo frameworks web, em especial o VueJs,"+
         " minha opinião sobre o typescript é que ele é incrível e ajuda muito na hora de desenvolver, já que ele não"+
-        " tem certas limitações do javascript como a tipagem."
+        " tem certas limitações do javascript."
     },
     {
         id:"JavaScript",
@@ -97,7 +97,7 @@ export const informacoes = [
     {
         id:"GitHub",
         tempo: "1-2 anos",
-        desc: "Desde o primeiro dia praticando HTML aprendi Git e Github, o link para o meu GitHub"+
+        desc: "Desde o primeiro dia praticando HTML aprendi Git e Github, o link para o meu GitHub "+
          "está na área de contatos e lá tem a maioria dos projetos que criei salvos nos meus repositórios."
     },
 ]

@@ -1,7 +1,8 @@
 <template>
     <section>
         <div class="container left">
-            <p> Olá, sou o Rafael e criei esta página web para divulgar um pouco os meus conhecimentos (E praticar um pouco).</p>
+            <h3>Olá 👋</h3>
+            <p> Sou o Rafael e criei esta página web para divulgar um pouco os meus conhecimentos (E praticar um pouco).</p>
             <p> Estou cursando Análise e Desenvolvimento de Sistemas no período da manhã.</p>
             <p> Sinta-se livre para navegar por aqui :)</p>
         </div>
@@ -32,13 +33,16 @@ export default defineComponent({
         display: flex;
     }
     .container{
-        width: 35vw;
+        width: 42vw;
         margin-top: 40px;
         font-size: 25px;
-        background-color: #EEE9;
-        padding: 20px;
-        border-radius: 5px;
-        height:fit-content;
+        background: rgb(254,254,254,0.95);
+        background: -moz-linear-gradient(0deg, rgba(254,254,254,0.06) 0%, rgba(254,254,254,0.5) 10%, rgba(254,254,254,0.9) 20%, rgba(254,254,254,0.9) 80%, rgba(254,254,254,0.5) 90%, rgba(254,254,254,0.06) 100%);
+        background: -webkit-linear-gradient(0deg, rgba(254,254,254,0.06) 0%, rgba(254,254,254,0.5) 10%, rgba(254,254,254,0.9) 20%, rgba(254,254,254,0.9) 80%, rgba(254,254,254,0.5) 90%, rgba(254,254,254,0.06) 100%);
+        background: linear-gradient(0deg, rgba(254,254,254,0.06) 0%, rgba(254,254,254,0.5) 10%, rgba(254,254,254,0.9) 20%, rgba(254,254,254,0.9) 80%, rgba(254,254,254,0.5) 90%, rgba(254,254,254,0.06) 100%);
+        font-weight: 500;
+        padding: 40px 20px;
+        height: calc(fit-content+20px);
     }
     div .left{
         margin-left: 10vw;
@@ -49,6 +53,25 @@ export default defineComponent({
         margin-right: 10vw;
     }
     @media only screen and (max-width: 600px) {
+        section{
+        display: block;
+    }
+    .container{
+        width:90vw;
+        margin-top: 40px;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 20px;
+        padding: 30px 10px;
 
+    }
+    div .left{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    div .right{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
 }
 </style>

@@ -35,6 +35,7 @@ export default defineComponent({
     }
     span{
         margin-top: 8px;
+        font-size: 26px;
         font-weight: 900;
     }
     @media only screen and (max-width: 600px) {
